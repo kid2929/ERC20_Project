@@ -1,4 +1,4 @@
-# Next.js/Hardhat Project
+# Next/Hardhat Project
 
 This project combines a Next.js front-end with a Hardhat development environment for Ethereum smart contracts.
 
