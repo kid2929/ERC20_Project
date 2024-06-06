@@ -1,4 +1,4 @@
-Your README file provides a basic set of instructions to get the project running, which is good. However, you can enhance it by adding more detailed information, such as prerequisites, potential issues, and additional context for each step. Here’s a more detailed version of your README:
+README:
 
 ```markdown
 # Starter Next/Hardhat Project
