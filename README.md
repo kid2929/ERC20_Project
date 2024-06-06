@@ -9,7 +9,7 @@ This project combines a Next.js front-end with a Hardhat development environment
 
 ## Getting Started
 
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 Inside the project directory, install the required npm packages:
 
@@ -17,7 +17,7 @@ Inside the project directory, install the required npm packages:
 npm install
 ```
 
-### 3. Start the Hardhat Local Node
+### 2. Start the Hardhat Local Node
 
 Open a new terminal and start the Hardhat local blockchain node:
 
@@ -27,7 +27,7 @@ npx hardhat node
 
 This will start a local Ethereum network for development.
 
-### 4. Deploy the Smart Contracts
+### 3. Deploy the Smart Contracts
 
 In another terminal, deploy the smart contracts to the local network:
 
@@ -37,7 +37,7 @@ npx hardhat run --network localhost scripts/deploy.js
 
 This will compile and deploy your smart contracts to the local Hardhat network.
 
-### 5. Launch the Front-End
+### 4. Launch the Front-End
 
 Back in the first terminal, start the Next.js development server:
 
