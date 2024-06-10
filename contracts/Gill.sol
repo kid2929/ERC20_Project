@@ -16,4 +16,10 @@ contract Gill is ERC20, Ownable {
     function burn(uint256 amount) public {
         _burn(msg.sender, amount);
     }
+
+    // Override transfer function
+    function transfer(address recipient, uint256 amount) public override returns (bool) {
+        require(amount > 0, "Transfer amount must be greater than zero");
+        return super.transfer(recipient, amount);
+    }
 }
